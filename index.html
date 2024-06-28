@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PIXI Slot Machine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a PIXI Slot Machine game. Try your luck!">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.4.0/pixi.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        
+        <div class="slot-machine">
+            <div class="screen-wrapper">
+            <div class="slot-screen">
+                <p class="top-text">GOOD LUCK!</p>
+                <div id="winMessage" class="win-message"></div>
+                <section class="reel-container">
+                    <div class="reel" id="reel1"></div>
+                    <div class="reel" id="reel2"></div>
+                    <div class="reel" id="reel3"></div>
+                </section>
+            </div>
+            <section class="button-container">
+                <button id="stopButton">STOP</button>
+                <button id="spinButton">SPIN</button>
+            </section>
+        </div>
+            <div class="levar">
+                <div class="levars levar-part1"></div>
+                <div class="levars levar-part2"></div>
+                <div class="levars levar-part3"></div>
+                <div class="levars levar-part4"></div>
+            </div>
+           
+        </div>
+        <!-- <p>test</p> -->
+
+        <button id="cheatButton">CHEAT</button>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
